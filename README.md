@@ -6,4 +6,4 @@ origin https://github.com/xxxx/xxxx.git (push)
 …. so on
 
 To run Typescript on browser
-npm innstall -g parcel-bundler
+npm install -g parcel-bundler
