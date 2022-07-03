@@ -43,3 +43,18 @@ You can skip the entire next video. After the next video, your index.html file s
     <script src="./src/index.ts"></script>
   </body>
 </html>
+
+### types/googlemaps
+
+npm install @types/google.maps
+
+Also, you will still see a TS error in your code editor:
+
+Cannot find name 'google'.ts(2304)
+
+As the very first line in the index.ts file, you will need to add a triple slash directive:
+
+/// <reference types="@types/google.maps" />
+You can read about this in the official docs here:
+
+https://developers.google.com/maps/documentation/javascript/using-typescript#Module_Import
