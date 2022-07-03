@@ -8,7 +8,8 @@ origin https://github.com/xxxx/xxxx.git (push)
 To run Typescript on browser
 npm install -g parcel-bundler
 
-Faker library
+### Faker library
+
 npm install faker@5.5.3
 npm install @types/faker@5.5.9
 
@@ -27,3 +28,18 @@ import { faker } from "@faker-js/faker";
 As of their v6 release, TS support is now native and does not require installing the @types declarations.
 
 https://github.com/faker-js/faker#typescript-support
+
+### Google Maps Key
+
+If you do not have a credit card tied to your Google account, or do not want to add one, then please use this pre-generated API key instead:
+
+AIzaSyBNLrJhOMz6idD05pzfn5lhA-TAw-mAZCU
+
+You can skip the entire next video. After the next video, your index.html file should look like this:
+
+<html>
+  <body>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNLrJhOMz6idD05pzfn5lhA-TAw-mAZCU"></script>
+    <script src="./src/index.ts"></script>
+  </body>
+</html>
