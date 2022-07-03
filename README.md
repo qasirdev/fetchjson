@@ -7,3 +7,23 @@ origin https://github.com/xxxx/xxxx.git (push)
 
 To run Typescript on browser
 npm install -g parcel-bundler
+
+Faker library
+npm install faker@5.5.3
+npm install @types/faker@5.5.9
+
+A community fork of Faker was made to save the project and they are actively working on some fixes and a fresh v6 release:
+
+https://github.com/faker-js/faker
+
+If you wish to use this library instead, you can install it by running:
+
+npm install @faker-js/faker
+
+You'll then need to update your imports:
+
+import { faker } from "@faker-js/faker";
+
+As of their v6 release, TS support is now native and does not require installing the @types declarations.
+
+https://github.com/faker-js/faker#typescript-support
