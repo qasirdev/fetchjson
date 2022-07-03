@@ -4,3 +4,6 @@ https://stackoverflow.com/questions/65173291/git-push-error-src-refspec-main-doe
 3- origin https://github.com/xxxx/xxxx.git (fetch)
 origin https://github.com/xxxx/xxxx.git (push)
 …. so on
+
+To run Typescript on browser
+npm install -g parcel-bundler
