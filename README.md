@@ -1,5 +1,5 @@
 //To create new application with Github - ANSWER 33
-https://stackoverflow.com/questions/65173291/git-push-error-src-refspec-main-does-not-match-any-on-linux 1- git remote add origin https://github.com/xxxxxx/xxxxx.git
+https://stackoverflow.com/questions/65173291/git-push-error-src-refspec-main-does-not-match-any-on-linux1- git remote add origin https://github.com/xxxxxx/xxxxx.git
 2- git remote -v
 3- origin https://github.com/xxxx/xxxx.git (fetch)
 origin https://github.com/xxxx/xxxx.git (push)
@@ -7,6 +7,7 @@ origin https://github.com/xxxx/xxxx.git (push)
 
 To run Typescript on browser
 npm install -g parcel-bundler
+parcel index.html //to run typescript in browser
 
 ### Faker library
 
@@ -58,3 +59,7 @@ As the very first line in the index.ts file, you will need to add a triple slash
 You can read about this in the official docs here:
 
 https://developers.google.com/maps/documentation/javascript/using-typescript#Module_Import
+
+### create react with typescript
+
+npx create-react-app my-app --template typescript
