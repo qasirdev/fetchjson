@@ -63,3 +63,7 @@ https://developers.google.com/maps/documentation/javascript/using-typescript#Mod
 ### create react with typescript
 
 npx create-react-app my-app --template typescript
+
+### Redux typescript redux-ts
+
+npm install --save-exact @types/react-redux@7.1.15 axios@0.21.1 react-redux@7.2.2 redux@4.0.5 redux-thunk@2.3.0
