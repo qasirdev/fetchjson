@@ -70,3 +70,8 @@ npm install --save-exact @types/react-redux@7.1.15 axios@0.21.1 react-redux@7.2.
 
 //To search npmjs for package
 https://registry.npmjs.org/-/v1/search?text=react
+
+### plugin for code snipt
+
+ES7+ React/Redux/React-Native snippets v4.4.3 - dsznajder
+Import Cost v3.3.0 - Wix
